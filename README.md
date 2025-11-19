@@ -1,1 +1,0 @@
-# AmbedkarGPT-Intern-Task
