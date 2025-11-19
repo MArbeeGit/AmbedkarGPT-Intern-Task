@@ -1,0 +1,8 @@
+langchain
+langchain-community
+chromadb
+sentence-transformers
+numpy
+scikit-learn
+rouge-score
+nltk

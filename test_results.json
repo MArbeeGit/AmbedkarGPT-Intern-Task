@@ -1,0 +1,965 @@
+{
+    "Small": {
+        "chunk_size": 250,
+        "metrics": {
+            "avg_hit_rate": 1.0,
+            "avg_mrr": 0.9015151515151516,
+            "avg_precision": 0.4090909090909091,
+            "avg_rouge_l": 0.2552,
+            "avg_bleu": 0.18451363636363635,
+            "avg_cosine_similarity": 0.5835
+        },
+        "detailed_results": [
+            {
+                "id": 1,
+                "question": "What is the real remedy for caste system according to Document 1?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1967,
+                    "bleu_score": 0.1157,
+                    "cosine_similarity": 0.7203
+                }
+            },
+            {
+                "id": 2,
+                "question": "What does Ambedkar say about the Buddha's view on rituals in Document 2?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.3146,
+                    "bleu_score": 0.2317,
+                    "cosine_similarity": 0.796
+                }
+            },
+            {
+                "id": 3,
+                "question": "What two types of constitutional remedies does Ambedkar mention in Document 3?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.2449,
+                    "bleu_score": 0.1386,
+                    "cosine_similarity": 0.6754
+                }
+            },
+            {
+                "id": 4,
+                "question": "What personal experiences of untouchability does Ambedkar describe in Document 4?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 0.5,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.2222,
+                    "bleu_score": 0.1757,
+                    "cosine_similarity": 0.4656
+                }
+            },
+            {
+                "id": 5,
+                "question": "Why does Ambedkar believe Pakistan's creation was inevitable in Document 5?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.3048,
+                    "bleu_score": 0.2211,
+                    "cosine_similarity": 0.5833
+                }
+            },
+            {
+                "id": 6,
+                "question": "Who does Ambedkar call 'broken men' in Document 6 and why?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.4062,
+                    "bleu_score": 0.2632,
+                    "cosine_similarity": 0.6194
+                }
+            },
+            {
+                "id": 7,
+                "question": "Compare Ambedkar's views on education in Documents 4 and 6",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.6666666666666666
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1724,
+                    "bleu_score": 0.1198,
+                    "cosine_similarity": 0.6615
+                }
+            },
+            {
+                "id": 8,
+                "question": "What is Ambedkar's concept of ideal society across Documents 1 and 3?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.6666666666666666
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1538,
+                    "bleu_score": 0.1176,
+                    "cosine_similarity": 0.401
+                }
+            },
+            {
+                "id": 9,
+                "question": "How does Ambedkar relate political power to social change in Documents 3 and 6?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.6666666666666666
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1613,
+                    "bleu_score": 0.1452,
+                    "cosine_similarity": 0.5836
+                }
+            },
+            {
+                "id": 12,
+                "question": "What is the Dhamma according to Document 2?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1839,
+                    "bleu_score": 0.1325,
+                    "cosine_similarity": 0.4121
+                }
+            },
+            {
+                "id": 13,
+                "question": "What analogy does Ambedkar use for social reform in Document 1?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1905,
+                    "bleu_score": 0.1165,
+                    "cosine_similarity": 0.4485
+                }
+            },
+            {
+                "id": 14,
+                "question": "What fundamental rights does Ambedkar mention in Document 3?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.5,
+                    "bleu_score": 0.375,
+                    "cosine_similarity": 0.6784
+                }
+            },
+            {
+                "id": 15,
+                "question": "How did Ambedkar struggle for education according to Document 4?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.32,
+                    "bleu_score": 0.25,
+                    "cosine_similarity": 0.4947
+                }
+            },
+            {
+                "id": 16,
+                "question": "What does Ambedkar say about the unity of India in Document 5?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 0.5,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.5714,
+                    "bleu_score": 0.4286,
+                    "cosine_similarity": 0.6905
+                }
+            },
+            {
+                "id": 17,
+                "question": "What solution does Ambedkar propose for untouchables in Document 6?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1778,
+                    "bleu_score": 0.0889,
+                    "cosine_similarity": 0.4853
+                }
+            },
+            {
+                "id": 18,
+                "question": "Compare the concept of 'enemy' in Documents 1 and 6",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 0.3333333333333333,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1848,
+                    "bleu_score": 0.1237,
+                    "cosine_similarity": 0.8608
+                }
+            },
+            {
+                "id": 19,
+                "question": "How does Ambedkar's view on religion differ between Documents 2 and 5?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.6666666666666666
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1152,
+                    "bleu_score": 0.0792,
+                    "cosine_similarity": 0.652
+                }
+            },
+            {
+                "id": 20,
+                "question": "What is the relationship between education and liberation in Ambedkar's philosophy?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.6666666666666666
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.0784,
+                    "bleu_score": 0.0816,
+                    "cosine_similarity": 0.5678
+                }
+            },
+            {
+                "id": 22,
+                "question": "What specific restrictions did untouchables face according to Document 4?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 0.5,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.2154,
+                    "bleu_score": 0.2308,
+                    "cosine_similarity": 0.6639
+                }
+            },
+            {
+                "id": 23,
+                "question": "How does Ambedkar define social democracy in Document 3?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.5098,
+                    "bleu_score": 0.3333,
+                    "cosine_similarity": 0.4661
+                }
+            },
+            {
+                "id": 24,
+                "question": "What does Ambedkar say about the Constitution in Document 3?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.2133,
+                    "bleu_score": 0.1774,
+                    "cosine_similarity": 0.3927
+                }
+            },
+            {
+                "id": 25,
+                "question": "How does Ambedkar characterize the Hindu-Muslim problem in Document 5?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.177,
+                    "bleu_score": 0.1132,
+                    "cosine_similarity": 0.5181
+                }
+            }
+        ]
+    },
+    "Medium": {
+        "chunk_size": 550,
+        "metrics": {
+            "avg_hit_rate": 1.0,
+            "avg_mrr": 0.9015151515151516,
+            "avg_precision": 0.4090909090909091,
+            "avg_rouge_l": 0.2948272727272727,
+            "avg_bleu": 0.2145181818181818,
+            "avg_cosine_similarity": 0.5754636363636364
+        },
+        "detailed_results": [
+            {
+                "id": 1,
+                "question": "What is the real remedy for caste system according to Document 1?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.25,
+                    "bleu_score": 0.1512,
+                    "cosine_similarity": 0.6664
+                }
+            },
+            {
+                "id": 2,
+                "question": "What does Ambedkar say about the Buddha's view on rituals in Document 2?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.549,
+                    "bleu_score": 0.475,
+                    "cosine_similarity": 0.8686
+                }
+            },
+            {
+                "id": 3,
+                "question": "What two types of constitutional remedies does Ambedkar mention in Document 3?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.6667,
+                    "bleu_score": 0.4667,
+                    "cosine_similarity": 0.7224
+                }
+            },
+            {
+                "id": 4,
+                "question": "What personal experiences of untouchability does Ambedkar describe in Document 4?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 0.5,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.2899,
+                    "bleu_score": 0.1833,
+                    "cosine_similarity": 0.526
+                }
+            },
+            {
+                "id": 5,
+                "question": "Why does Ambedkar believe Pakistan's creation was inevitable in Document 5?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.2373,
+                    "bleu_score": 0.1792,
+                    "cosine_similarity": 0.572
+                }
+            },
+            {
+                "id": 6,
+                "question": "Who does Ambedkar call 'broken men' in Document 6 and why?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.2895,
+                    "bleu_score": 0.1944,
+                    "cosine_similarity": 0.5797
+                }
+            },
+            {
+                "id": 7,
+                "question": "Compare Ambedkar's views on education in Documents 4 and 6",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.6666666666666666
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1416,
+                    "bleu_score": 0.0893,
+                    "cosine_similarity": 0.509
+                }
+            },
+            {
+                "id": 8,
+                "question": "What is Ambedkar's concept of ideal society across Documents 1 and 3?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.6666666666666666
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1284,
+                    "bleu_score": 0.1182,
+                    "cosine_similarity": 0.4938
+                }
+            },
+            {
+                "id": 9,
+                "question": "How does Ambedkar relate political power to social change in Documents 3 and 6?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.6666666666666666
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1063,
+                    "bleu_score": 0.081,
+                    "cosine_similarity": 0.4924
+                }
+            },
+            {
+                "id": 12,
+                "question": "What is the Dhamma according to Document 2?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1488,
+                    "bleu_score": 0.0894,
+                    "cosine_similarity": 0.2767
+                }
+            },
+            {
+                "id": 13,
+                "question": "What analogy does Ambedkar use for social reform in Document 1?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.25,
+                    "bleu_score": 0.1282,
+                    "cosine_similarity": 0.3985
+                }
+            },
+            {
+                "id": 14,
+                "question": "What fundamental rights does Ambedkar mention in Document 3?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.4828,
+                    "bleu_score": 0.36,
+                    "cosine_similarity": 0.6886
+                }
+            },
+            {
+                "id": 15,
+                "question": "How did Ambedkar struggle for education according to Document 4?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.2529,
+                    "bleu_score": 0.1486,
+                    "cosine_similarity": 0.4616
+                }
+            },
+            {
+                "id": 16,
+                "question": "What does Ambedkar say about the unity of India in Document 5?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 0.5,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.5806,
+                    "bleu_score": 0.4286,
+                    "cosine_similarity": 0.708
+                }
+            },
+            {
+                "id": 17,
+                "question": "What solution does Ambedkar propose for untouchables in Document 6?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1527,
+                    "bleu_score": 0.1087,
+                    "cosine_similarity": 0.5019
+                }
+            },
+            {
+                "id": 18,
+                "question": "Compare the concept of 'enemy' in Documents 1 and 6",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 0.3333333333333333,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1935,
+                    "bleu_score": 0.1465,
+                    "cosine_similarity": 0.7826
+                }
+            },
+            {
+                "id": 19,
+                "question": "How does Ambedkar's view on religion differ between Documents 2 and 5?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.6666666666666666
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1675,
+                    "bleu_score": 0.1111,
+                    "cosine_similarity": 0.6618
+                }
+            },
+            {
+                "id": 20,
+                "question": "What is the relationship between education and liberation in Ambedkar's philosophy?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.6666666666666666
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.0935,
+                    "bleu_score": 0.0693,
+                    "cosine_similarity": 0.5724
+                }
+            },
+            {
+                "id": 22,
+                "question": "What specific restrictions did untouchables face according to Document 4?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 0.5,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.209,
+                    "bleu_score": 0.2182,
+                    "cosine_similarity": 0.6238
+                }
+            },
+            {
+                "id": 23,
+                "question": "How does Ambedkar define social democracy in Document 3?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.7879,
+                    "bleu_score": 0.6522,
+                    "cosine_similarity": 0.5883
+                }
+            },
+            {
+                "id": 24,
+                "question": "What does Ambedkar say about the Constitution in Document 3?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.2474,
+                    "bleu_score": 0.1556,
+                    "cosine_similarity": 0.4024
+                }
+            },
+            {
+                "id": 25,
+                "question": "How does Ambedkar characterize the Hindu-Muslim problem in Document 5?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.2609,
+                    "bleu_score": 0.1647,
+                    "cosine_similarity": 0.5633
+                }
+            }
+        ]
+    },
+    "Large": {
+        "chunk_size": 900,
+        "metrics": {
+            "avg_hit_rate": 1.0,
+            "avg_mrr": 0.9015151515151516,
+            "avg_precision": 0.4090909090909091,
+            "avg_rouge_l": 0.2716454545454545,
+            "avg_bleu": 0.19807272727272726,
+            "avg_cosine_similarity": 0.5898545454545455
+        },
+        "detailed_results": [
+            {
+                "id": 1,
+                "question": "What is the real remedy for caste system according to Document 1?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.25,
+                    "bleu_score": 0.1548,
+                    "cosine_similarity": 0.6543
+                }
+            },
+            {
+                "id": 2,
+                "question": "What does Ambedkar say about the Buddha's view on rituals in Document 2?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.3548,
+                    "bleu_score": 0.3,
+                    "cosine_similarity": 0.8436
+                }
+            },
+            {
+                "id": 3,
+                "question": "What two types of constitutional remedies does Ambedkar mention in Document 3?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.2651,
+                    "bleu_score": 0.1707,
+                    "cosine_similarity": 0.6319
+                }
+            },
+            {
+                "id": 4,
+                "question": "What personal experiences of untouchability does Ambedkar describe in Document 4?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 0.5,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.3714,
+                    "bleu_score": 0.2419,
+                    "cosine_similarity": 0.4708
+                }
+            },
+            {
+                "id": 5,
+                "question": "Why does Ambedkar believe Pakistan's creation was inevitable in Document 5?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.297,
+                    "bleu_score": 0.1573,
+                    "cosine_similarity": 0.6223
+                }
+            },
+            {
+                "id": 6,
+                "question": "Who does Ambedkar call 'broken men' in Document 6 and why?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.2609,
+                    "bleu_score": 0.1935,
+                    "cosine_similarity": 0.5986
+                }
+            },
+            {
+                "id": 7,
+                "question": "Compare Ambedkar's views on education in Documents 4 and 6",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.6666666666666666
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1415,
+                    "bleu_score": 0.0976,
+                    "cosine_similarity": 0.5555
+                }
+            },
+            {
+                "id": 8,
+                "question": "What is Ambedkar's concept of ideal society across Documents 1 and 3?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.6666666666666666
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1724,
+                    "bleu_score": 0.125,
+                    "cosine_similarity": 0.4751
+                }
+            },
+            {
+                "id": 9,
+                "question": "How does Ambedkar relate political power to social change in Documents 3 and 6?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.6666666666666666
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1143,
+                    "bleu_score": 0.1206,
+                    "cosine_similarity": 0.5044
+                }
+            },
+            {
+                "id": 12,
+                "question": "What is the Dhamma according to Document 2?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1311,
+                    "bleu_score": 0.0866,
+                    "cosine_similarity": 0.3293
+                }
+            },
+            {
+                "id": 13,
+                "question": "What analogy does Ambedkar use for social reform in Document 1?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.2195,
+                    "bleu_score": 0.1316,
+                    "cosine_similarity": 0.3949
+                }
+            },
+            {
+                "id": 14,
+                "question": "What fundamental rights does Ambedkar mention in Document 3?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.5283,
+                    "bleu_score": 0.3913,
+                    "cosine_similarity": 0.716
+                }
+            },
+            {
+                "id": 15,
+                "question": "How did Ambedkar struggle for education according to Document 4?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.3529,
+                    "bleu_score": 0.2143,
+                    "cosine_similarity": 0.4936
+                }
+            },
+            {
+                "id": 16,
+                "question": "What does Ambedkar say about the unity of India in Document 5?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 0.5,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.5714,
+                    "bleu_score": 0.42,
+                    "cosine_similarity": 0.7396
+                }
+            },
+            {
+                "id": 17,
+                "question": "What solution does Ambedkar propose for untouchables in Document 6?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1243,
+                    "bleu_score": 0.0749,
+                    "cosine_similarity": 0.467
+                }
+            },
+            {
+                "id": 18,
+                "question": "Compare the concept of 'enemy' in Documents 1 and 6",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 0.3333333333333333,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.2065,
+                    "bleu_score": 0.1456,
+                    "cosine_similarity": 0.7999
+                }
+            },
+            {
+                "id": 19,
+                "question": "How does Ambedkar's view on religion differ between Documents 2 and 5?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.6666666666666666
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.1676,
+                    "bleu_score": 0.1214,
+                    "cosine_similarity": 0.6613
+                }
+            },
+            {
+                "id": 20,
+                "question": "What is the relationship between education and liberation in Ambedkar's philosophy?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.6666666666666666
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.0741,
+                    "bleu_score": 0.0769,
+                    "cosine_similarity": 0.6252
+                }
+            },
+            {
+                "id": 22,
+                "question": "What specific restrictions did untouchables face according to Document 4?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 0.5,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.3611,
+                    "bleu_score": 0.3065,
+                    "cosine_similarity": 0.717
+                }
+            },
+            {
+                "id": 23,
+                "question": "How does Ambedkar define social democracy in Document 3?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.5946,
+                    "bleu_score": 0.4643,
+                    "cosine_similarity": 0.5429
+                }
+            },
+            {
+                "id": 24,
+                "question": "What does Ambedkar say about the Constitution in Document 3?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.2,
+                    "bleu_score": 0.2099,
+                    "cosine_similarity": 0.5993
+                }
+            },
+            {
+                "id": 25,
+                "question": "How does Ambedkar characterize the Hindu-Muslim problem in Document 5?",
+                "retrieval_metrics": {
+                    "hit": true,
+                    "mrr": 1.0,
+                    "precision": 0.3333333333333333
+                },
+                "quality_metrics": {
+                    "rouge_l": 0.2174,
+                    "bleu_score": 0.1529,
+                    "cosine_similarity": 0.5343
+                }
+            }
+        ]
+    }
+}
